@@ -28,10 +28,6 @@ h1{
     display: inline-block;
 }
 
-.mySkills{
-    font-family: 'Poppins', sans-serif;
-    font-size: 13px;
-}
 .flexChild{
     background: black;
 }
@@ -41,6 +37,8 @@ h1{
     background-color: #000000;
     padding: 20px;
     color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
 }
 .flexContainer {
     display: flex;
@@ -73,4 +71,23 @@ div.logo {
     align-content: end;
     width: 23%;
     padding: 10%;
+}
+
+.myWork {
+    text-align: center;
+    background-color: black;
+    padding: 20px;
+    color: #000000;
+}
+.workGrid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 5px;
+    background-color: black;
+}
+
+
+.workItem img {
+    max-width: 100%;
+    height: auto;
 }
