@@ -1,22 +1,37 @@
+body {
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content:space-evenly; /* Align items to the top right corner */
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+.header{
+    justify-content:space-evenly;
+    padding-top: 4%;
+    padding-right: 50%;
+}
+
+
 .inline-block {
     color: white;
     display: inline-block;
-    vertical-align: top;
-    padding: 5%;
+    vertical-align: bottom;
+    padding-top: 20%;
     font-family: 'Poppins', sans-serif;
-    font-size: 30px;
-    margin: auto;
+    font-size: 20px;
+    text-align: center;
+    margin-right: 20%; 
+    justify-content:space-evenly;
 
-
-}
-
-body {
-    background-color: black;
-
+    /* Add margin to the right for spacing */
 }
 
 div.logo {
     text-align: center;
+    align-content: end;
     width: 23%;
-    padding: 1%;
+    padding: 10%;
 }
