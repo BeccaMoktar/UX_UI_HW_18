@@ -3,17 +3,26 @@ body {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-    justify-content:space-evenly; /* Align items to the top right corner */
+    justify-content:center; /* Align items to the top right corner */
     height: 100vh;
     margin: 0;
     padding: 0;
+
 }
 .header{
     justify-content:space-evenly;
     padding-top: 4%;
     padding-right: 50%;
+
 }
 
+.container {
+    width: 30%; /* Adjust the width as needed */
+    margin: 10px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    display: inline-block;
+}
 
 .inline-block {
     color: white;

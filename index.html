@@ -11,8 +11,6 @@
 </head>
 
 <body>
-    <div class="header">
-        <img src="images/LogoRM.png">
         <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Poppins:wght@100;300&display=swap" rel="stylesheet">
@@ -30,32 +28,51 @@
             <a href="contact"> Content</a>
 
         </nav>
-
+        
         <style>
-            .container {
-                width: 30%; /* Adjust the width as needed */
-                margin: 10px;
-                border: 1px solid #ccc;
+            .mySkills {
+                text-align: center;
+                background-color: #f0f0f0;
+                padding: 20px;
+            }
+            .flexContainer {
+                display: flex;
+                justify-content: space-between;
+            }
+            .flexChild {
+                width: 30%;
                 padding: 10px;
-                display: inline-block;
+                margin: 10px;
+                text-align: center;
+                border: 1px solid #ccc;
             }
         </style>
     </head>
     <body>
-        <div class="container">
-            <h2>Container 1</h2>
-            <p>This is the first container.</p>
-        </div>
-    
-        <div class="container">
-            <h2>Container 2</h2>
-            <p>This is the second container.</p>
-        </div>
-    
-        <div class="container">
-            <h2>Container 3</h2>
-            <p>This is the third container.</p>
-        </div>
+        <section class="mySkills">
+            <h1>a few of my favourite things</h1>
+            <div class="flexContainer">
+                <div class="flexChild">
+                    <img src="images/travel.png" alt="Skill 1 Icon">
+                    <h3> Travelling</h3>
+                    <p>By far one of my favourite hobbies (and the most expensive), but also so rewarding. Having spent summers in Germany growing up, my love for traveling and experiencing new places and cultures started at a young age.</p>
+                </div>
+                <div class="flexChild">
+                    <img src="images/photography.png" alt="Skill 2 Icon">
+                    <h3>Photography</h3>
+                    <p>I love capturing moments and feelings on camera. I focus on editorial work, and particularly love portraiture. I find capturing an individuals unique beauty is such a creative form of storytelling..</p>
+                </div>
+                <div class="flexChild">
+                    <img src="images/stayingactive.png" alt="Skill 3 Icon">
+                    <h3>Staying Active</h3>
+                    <p>I grew up as a dancer, I spent my winters on the slopes with my siblings and friends on our boards, and transitioned into rep soccer in the summers. I still love being active just as much now, as I did back then. </p>
+                </div>
+            </div>
+        </section>
+
+
+      
+
 
 
 
