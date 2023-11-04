@@ -24,6 +24,32 @@ body {
     display: inline-block;
 }
 
+.mySkills{
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+}
+.flexChild{
+    background: black;
+}
+
+.mySkills {
+    text-align: center;
+    background-color: #000000;
+    padding: 20px;
+    color: white;
+}
+.flexContainer {
+    display: flex;
+    justify-content: space-between;
+}
+.flexChild {
+    width: 30%;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    
+}
+
 .inline-block {
     color: white;
     display: inline-block;
