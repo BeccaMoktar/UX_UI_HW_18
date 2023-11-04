@@ -32,7 +32,7 @@ h1{
     background: black;
 }
 
-.mySkills {
+.myFavourites {
     text-align: center;
     background-color: #000000;
     padding: 20px;
@@ -77,17 +77,24 @@ div.logo {
     text-align: center;
     background-color: black;
     padding: 20px;
-    color: #000000;
+
 }
 .workGrid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-gap: 5px;
-    background-color: black;
+    grid-gap: 20px;
 }
-
-
+.workItem {
+    border: 1px solid #ccc;
+    padding: 10px;
+}
 .workItem img {
     max-width: 100%;
     height: auto;
+}
+.mySkills{
+    font-size: 15px;
+    align-content: center;
+    float: center;
+    
 }
