@@ -57,19 +57,23 @@ h1{
     color: white;
     display: inline-block;
     vertical-align: bottom;
-    padding-top: 20%;
     font-family: 'Poppins', sans-serif;
     font-size: 20px;
     text-align: center;
     margin-right: 20%; 
     justify-content:space-evenly;
-
+    width: 100%;
     /* Add margin to the right for spacing */
 }
 
 div.logo {
     width: 23%;
-    padding: 10%;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.info-item {
+    padding: 10px;
 }
 
 .myWork {
@@ -91,9 +95,27 @@ div.logo {
     max-width: 100%;
     height: auto;
 }
-.mySkills{
-    font-size: 15px;
-    align-content: center;
-    float: center;
-    
-}
+
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+
+    .flexContainer {
+        flex-direction: column;
+    }
+
+    .flexChild {
+        width: 100%;
+    }
+
+    .workItem {
+        grid-area: myArea;
+    }
+
+    .workGrid {
+        grid-template-rows: 300px 300px 300px 300px 300px;
+        grid-template-columns: 1fr;
+        grid-template-areas: "myArea";
+    }
+  }
