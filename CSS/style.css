@@ -45,10 +45,11 @@ h1{
     justify-content: space-between;
 }
 .flexChild {
-    width: 30%;
+    width: 33%;
     padding: 10px;
     margin: 10px;
     text-align: center;
+    
     
 }
 
@@ -67,8 +68,6 @@ h1{
 }
 
 div.logo {
-    text-align: center;
-    align-content: end;
     width: 23%;
     padding: 10%;
 }
