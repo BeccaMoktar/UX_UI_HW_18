@@ -3,7 +3,7 @@ body {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-    justify-content:center; /* Align items to the top right corner */
+    justify-content:center;
     height: 100vh;
     margin: 0;
     padding: 0;
@@ -21,7 +21,7 @@ h1{
 }
 
 .container {
-    width: 30%; /* Adjust the width as needed */
+    width: 30%;
     margin: 10px;
     border: 1px solid #ccc;
     padding: 10px;
@@ -58,12 +58,13 @@ h1{
     display: inline-block;
     vertical-align: bottom;
     font-family: 'Poppins', sans-serif;
+    font-weight: bold;
     font-size: 20px;
     text-align: center;
     margin-right: 20%; 
     justify-content:space-evenly;
     width: 100%;
-    /* Add margin to the right for spacing */
+    
 }
 
 div.logo {
@@ -96,7 +97,7 @@ div.logo {
     height: auto;
 }
 
-@media only screen and (max-width: 2000px) {
+@media only screen and (max-width: 600px) {
     body {
       background-color: lightblue;
     }
